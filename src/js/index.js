@@ -16,23 +16,6 @@ menuLinks.forEach(
   }
 )
 
-// var countDownDate = new Date("Mar 8, 2021 19:33:10").getTime();
-
-// var x = setInterval(function() {
-//     var now = new Date().getTime();
-//     var distance = countDownDate - now;
-//     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-//     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-//     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-//     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-//     document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-//     + minutes + "m " + seconds + "s ";
-//     if (distance < 0) {
-//         clearInterval(x);
-//         document.getElementById("timer").style.display = "none";
-//         document.getElementById("main-content").style.display="block"      
-//     }
-// }, 1000);
 
 
 $('a[href^="#"]').click(function(){ // #1
