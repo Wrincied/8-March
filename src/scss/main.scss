@@ -120,9 +120,8 @@ body{
               }
             } 
             }
-            .social-icons{
-              
-              ul{
+            .social-icons{      
+              & .social-icons__list{
                 display: flex;
                 list-style: none;
                 align-items: center;
