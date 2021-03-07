@@ -27,7 +27,7 @@ $('a[href^="#"]').click(function(){ // #1
 
 
   function alertsystem() {
-    alert("With love");
+    alert("Love");
   }
 
 
