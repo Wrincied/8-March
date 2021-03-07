@@ -70,7 +70,7 @@ body{
         .main-content{
             width: 100%;
             margin:0 auto;
-            height: 1200px;
+            height: 1300px;
             background-color: white;
             #home{
                 text-align: center;
@@ -94,6 +94,7 @@ body{
                       text-align: center;
                     }
                     .hero__text{
+                      padding: 0 5px;
                       font-family: 'Poppins', sans-serif;
                       text-align: center;
                       color: black;
@@ -366,7 +367,11 @@ body{
       }
     } 
     }
-
+.hero{
+  .hero__text{
+    font-size: 1.1em;
+  }
+}
 }
 
 /* Extra small devices (phones, 600px and down) */
