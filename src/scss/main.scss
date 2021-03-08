@@ -70,7 +70,7 @@ body{
         .main-content{
             width: 100%;
             margin:0 auto;
-            height: 1300px;
+            height: auto;
             background-color: white;
             #home{
                 text-align: center;
@@ -109,6 +109,7 @@ body{
         .footer{
           width: 100%;
           max-height: 60px;
+          height: 100%;
           background-color: #ffffff;
           box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .1);
           .aside-footer{
@@ -159,7 +160,6 @@ body{
                 }
             } 
           }
-          .wrapper{
             .content-main{
                 .content-main__aside{
                     width: 100%;
@@ -174,32 +174,23 @@ body{
                                     color: rebeccapurple;
                                     text-decoration: none;
                                     font-family: Arial, Helvetica, sans-serif;
-                                &:hover{
-                                    border-bottom: 1px solid rebeccapurple;
-                            }
+
                                 
                         }
                     }
                 }
             }
         }
-        .main-content{
-            // .main-content__subtext{
-            //     padding: 15px;
-            //     p{    
-            //         font-family: Arial, Helvetica, sans-serif;
-            //     }
-        
-            // }
+        .main-content__content{
             .div-bk{
                 padding: 25px;
+                margin-bottom: 150px;
                 .div-bk__text{
                     font-family: Arial, Helvetica, sans-serif;
         
                 }
         }
         
-        }
         }
         }
 /* media */
