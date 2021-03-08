@@ -29,6 +29,15 @@ $('a[href^="#"]').click(function(){ // #1
   function alertsystem() {
     alert("Love");
   }
-
+  $(function() {
+    $('.aside__navbar__menuLink').on('click', function(e) {
+        e.preventDefault();
+        $('.div-bk').each(function() {
+            $(this).css('display', 'none');
+        });
+        var block = $(this).attr('href');
+        $(block).css('display', 'block');
+    });
+});
 
 

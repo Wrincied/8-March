@@ -159,6 +159,49 @@ body{
                 }
             } 
           }
+          .wrapper{
+            .content-main{
+                .content-main__aside{
+                    width: 100%;
+                    max-width:300px;            
+                    .aside__navbar{
+                        ul{
+                            list-style: none;
+                            padding: 25px;                    
+                            li{
+                                 line-height: 25px;
+                                .aside__navbar__menuLink{                                    
+                                    color: rebeccapurple;
+                                    text-decoration: none;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                &:hover{
+                                    border-bottom: 1px solid rebeccapurple;
+                            }
+                                
+                        }
+                    }
+                }
+            }
+        }
+        .main-content{
+            // .main-content__subtext{
+            //     padding: 15px;
+            //     p{    
+            //         font-family: Arial, Helvetica, sans-serif;
+            //     }
+        
+            // }
+            .div-bk{
+                padding: 25px;
+                .div-bk__text{
+                    font-family: Arial, Helvetica, sans-serif;
+        
+                }
+        }
+        
+        }
+        }
+        }
 /* media */
 
 @media screen and (max-width:650px){
